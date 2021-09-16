@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "name": "Steam Spa",
+        "category": "Car",
+        "category_id": 1,
+        "subcategory_id":1,
+        "Price": 3000,
+        "Image": "https://i.ibb.co/86f03Dx/steamwash.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Revivify Coating",
+        "category":"Car",
+        "category_id": 1,
+        "subcategory_id":1,
+        "Price": 1500,
+        "Image": "https://i.ibb.co/rcLQdxQ/exterior1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "AC Disinfectant",
+        "category": "Car",
+        "category_id": 1,
+        "subcategory_id":2,
+        "Price": 2000,
+        "Image": "https://i.ibb.co/WBx9Ss2/ac-disinfect.jpg"
+    },
+    {
+        "id": 4,
+        "name": "vaccuming",
+        "category": "Car",
+        "category_id": 1,
+        "subcategory_id":2,
+        "Price": 1500,
+        "Image": "https://i.ibb.co/cwThX80/carvacuum.jpg"
+     },
+     {
+        "id": 5,
+        "name": "car wax",
+        "category": "Car",
+        "category_id": 1,
+        "subcategory_id":3,
+        "Price": 4000,
+        "Image": "https://i.ibb.co/YRGxhS1/carwax.jpg"
+    },
+    {
+        "id": 6,
+        "name": "under body coating",
+        "category": "Car",
+        "category_id": 1,
+        "subcategory_id":3,
+        "Price": 5000,
+        "Image": "https://i.ibb.co/gZm5ZW9/Underneath-a-car.jpg" 
+    },
+    {
+        "id": 7,
+        "name": "silencer coating",
+        "category": "Bike",
+        "category_id": 2,
+        "subcategory_id":4,
+        "Price": 1500,
+        "Image": "https://i.ibb.co/wcM12MJ/silencer-coating.jpg"
+
+    },
+    {
+        "id": 8,
+        "name": "Bike Pampering Treatment",
+        "category": "Bike",
+        "category_id": 2,
+        "subcategory_id":4,
+        "Price": 1500,
+        "Image": "https://i.ibb.co/gw02Dkr/bikepamper.jpg"
+    }
+]   

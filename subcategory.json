@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "exterior treatments",
+        "category_id": 1,
+        "Image": "https://i.ibb.co/qyGWkp8/Exterior1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "interior treatments",
+        "category_id": 1,
+        "Image": "https://i.ibb.co/QF3sX5r/interior.jpg"
+    },
+    {
+        "id": 3,
+        "name": "anti corrosion treatments",
+        "category_id": 1,
+        "Image": "https://i.ibb.co/wBMvS0Q/anti.jpg"
+    },
+    {
+        "id": 4,
+        "name": "bike care services",
+        "category_id": 2,
+        "Image": "https://i.ibb.co/88fZYmM/Bike-Care.jpg"
+     }
+]   
