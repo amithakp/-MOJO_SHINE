@@ -1,0 +1,79 @@
+body{
+    background-color:#000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img{
+    width:100%;
+    height: 500px!important;
+    opacity:0.4;
+}
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    height: 380px;
+    border: 1px solid red;
+    
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    top: 6!important; /* At the bottom. Use top:0 to append it to the top */
+    color: white; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
+  .detail{
+    margin-top: 5%;
+    color:gray;
+  }
+  .btn-default{
+    border-radius: 20px;
+    color:#000;
+    width:200px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .carousel-caption{
+    color:#fff;
+    text-align: center;
+    position: absolute;
+    
+  }
+  .heading{
+    margin-top: 0;
+    margin-bottom: 65px;
+    width:100%;
+    font-size: 80px;
+    padding-left: 1%;
+    text-align: center;
+    letter-spacing: 8px;
+    text-shadow: 1px 1px 20px #000;
+  }
+  .subHeading{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 20px #000;
+  }
+  @media screen and (max-width:680px){
+    .heading{
+        letter-spacing: -2px;
+        font-size: 70px;
+        margin-bottom: 30px;
+    }   
+    .subHeading{
+        color: #fff;
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 20px #000;
+      }
+}
