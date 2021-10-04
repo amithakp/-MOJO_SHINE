@@ -13,6 +13,7 @@ body{
     max-width: 800px; /* Maximum width */
     height: 380px;
     border: 1px solid red;
+    border-radius: 10px;
     
   }
   
