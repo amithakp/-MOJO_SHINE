@@ -78,3 +78,12 @@ body{
         text-shadow: 1px 1px 20px #000;
       }
 }
+/*****main-category****/
+#car{
+  width:500px;
+  height:500px;
+  background-color: aquamarine;
+  margin-left:2%;
+  margin-top:1%;
+  background-image:url("https://i.ibb.co/ccBJpPG/car-main.jpg")
+}
