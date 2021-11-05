@@ -1,4 +1,10 @@
+*{
+  box-sizing:border-box;
+  margin:0%;
+}
+
 body{
+    margin:0;
     background-color:#000;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,16 +14,16 @@ body{
     height: 500px!important;
     opacity:0.4;
 }
-.container {
+#containerHead {
     position: relative;
     max-width: 800px; /* Maximum width */
     height: 380px;
     border: 1px solid red;
     border-radius: 10px;
-    
+    display:block;
   }
   
-  .container .content {
+  #containerHead .content {
     position: absolute; /* Position the background text */
     top: 6!important; /* At the bottom. Use top:0 to append it to the top */
     color: white; /* Grey text */
@@ -61,29 +67,101 @@ body{
     font-weight: 300;
     letter-spacing: 7px;
     text-transform: uppercase;
+    display:inline;
     text-shadow: 1px 1px 20px #000;
   }
-  @media screen and (max-width:680px){
-    .heading{
-        letter-spacing: -2px;
-        font-size: 70px;
-        margin-bottom: 30px;
-    }   
-    .subHeading{
-        color: #fff;
-        font-size: 18px;
-        font-weight: 300;
-        letter-spacing: 5px;
-        text-transform: uppercase;
-        text-shadow: 1px 1px 20px #000;
-      }
+  .section{
+    margin-top:2%;
+    height:400px;
+    display:flex;
+    flex-direction:row;
+    /* justify-content:center; */
+    flex:wrap;
+    background-color:rgb(218, 218, 149);
+  }
+  
+  #one,#two{
+    flex:1;
+    border:2px solid white;
+    height:400px;
+    background-color:rgb(138, 138, 23);
+    padding:3%;
+    background-size: 100% 500px;
+  }
+  #one{
+    background-image:url("https://i.ibb.co/ZzXzGnQ/c3.jpg");
+    width:100%;
+  }
+  #two{
+    background-image:url("https://i.ibb.co/6435NNZ/bike.jpg");
+    background-color:rgb(164, 221, 72);
+    width:100%;
+  }
+  
+ 
+ #one:hover{
+    transform: scale(1.1);
+    background-color: rgb(204, 204, 204);
+} 
+ #two:hover{
+  transform: scale(1.1);
+  background-color: rgb(204, 204, 204);
+} 
+
+footer{
+  text-align:center;
+  font-size:25px;
+  
 }
-/*****main-category****/
-#car{
-  width:500px;
-  height:500px;
-  background-color: aquamarine;
-  margin-left:2%;
-  margin-top:1%;
-  background-image:url("https://i.ibb.co/ccBJpPG/car-main.jpg")
+#storeHours h3{
+  color:rgb(207, 203, 203);
+ }
+#storeHours h5{
+  color:rgb(36, 183, 228);
+  position: absolute;
+  margin-left: 9%;
 }
+
+.hours-list-item{
+  color:white;
+}
+ul {
+    list-style-type: none;
+    font-size:18px;
+    display:block;
+    margin-top:4%;
+}
+.day{
+  margin-left:1%;
+  float:left;
+}
+.timing{
+  margin-left: -74%;
+} 
+@media screen and (max-width:850px){
+  .timing{
+    margin-left: -43%!important;
+  } 
+  ul{
+    margin-top:6%!important;
+  }
+}
+@media screen and (max-width:700px){
+  .section{
+    height:800px;
+    flex-direction:column;
+    /* justify-content:center; */
+    flex:wrap;
+   
+  }
+  @media screen and (max-width:650px){
+    .timing{
+      margin-left: -43%!important;
+    } 
+    ul{
+      margin-top:10%!important;
+    }
+  }
+
+}
+   
