@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>Booking</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="car_booking.css"/>
+        <script src="car_booking.js"></script>
+    </head>
+    <body>
+        <!--nav bar-->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#myNavbar">
+                        <!--to give 3 lines-->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        MOJO-SHINE
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"> HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">LOCATION</a></li>
+                        <li><a href="#">CLIENTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li class="dropdown">
+                            <!--<a class="dropdown-toggle" it must be <a> not button in dropdwn-->
+                            <a class="dropdown-toggle dropup" data-toggle="dropdown">
+                                OUR SERVICES<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-header">CAR</li>
+                                <li><a href="#">Exterior Treatments</a></li>
+                                <li><a href="#">Enterior Treatments</a></li>
+                                <li><a href="#">Anti Corrosion Treatments</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">CAR</li>
+                                <li><a href="#">BIKE</a></li>
+                                <li><a href="#">Bike Care Services</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="mainTileContainer">
+                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="images/image/bg1.jfif" class="media-object"/>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Steam Wash</h3>
+                            <h5 class="center">Steam cleaning leaves your vehicle smelling clean and fresh which is completely safe and healthy for your family.
+                                Doing so will give your car a new appearance, without the use of harmful chemicals which can prove dangerous for you and especially your kids.
+                            </h5>
+                            <p class="sub-Heading">
+                                &#8377;500
+                            </p>
+                            <button onclick="bookNow()" class="btn btn-success">Book Now</button>
+                        </div>
+                    </div> 
+                 </div>           
+            </div>
+        </div>
+        <!-- <div class="container">
+            <div class="mainTileContainer">
+                <div class="tileContainer">
+                    <div class="tileContainer-left">
+                        <img src="images/image/bg1.jfif" class="tile-left"/>
+                    </div>
+                    <div class="tile-body">
+                        <h4 class="tile-heading">Steam Wash</h4>
+                        <p class="subHeading">
+                            &#8377;500
+                        </p>
+                    </div>
+                </div>            
+            </div>
+        </div> -->
+    </body>
+    </body>
+</html>
